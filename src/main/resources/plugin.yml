@@ -1,0 +1,19 @@
+name: CbanPlugin
+version: 77.0
+main: me.pzsz.cbanplugin.Main
+commands:
+  cban:
+    description: Bane permanentemente um jogador.
+    usage: /cban <jogador> <motivo>
+    permission: cbanplugin.cban
+  unban:
+    description: Remove o banimento de um jogador.
+    usage: /unban <jogador>
+    permission: cbanplugin.unban
+permissions:
+  cbanplugin.cban:
+    description: Permissão para banir jogadores.
+    default: op
+  cbanplugin.unban:
+    description: Permissão para desbanir jogadores.
+    default: op
